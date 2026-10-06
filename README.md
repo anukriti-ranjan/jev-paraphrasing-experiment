@@ -10,10 +10,9 @@ H0: probe disagreement carries no information about correctness beyond
 H1: it does, especially on verdicts where confidence is already high.
 ```
 
-**Read [`EVOLUTION.md`](EVOLUTION.md) for the full story — what was tried,
-what broke, what was found, and why the conclusion changed twice.
-Read [`BLOG_POST.md`](BLOG_POST.md) for the short, human version of the
-same story.** This README is just how to run the code.
+**Read [`EVOLUTION.md`](study/EVOLUTION.md) for the full story — what was tried,
+what broke, what was found, and why the conclusion changed twice.** 
+This README is just how to run the code.
 
 ## Pipeline
 
