@@ -1,0 +1,20 @@
+.env
+.venv/
+study/.venv/
+_pycache_/
+*.pyc
+.DS_Store
+.claude/
+jev-results/
+figures/*.pdf
+study/BLOG_POST.md
+
+# autorubric is cloned separately per study/README.md's Setup section --
+# it's a full external git repo (its own .git), not vendored content, so
+# committing it here would create a nested-repo mess.
+autorubric/
+
+# Too large for git, and trivially re-downloadable (see
+# study/01_prepare_dataset.py's docstring for the download command).
+data/raw/
+data/
